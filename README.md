@@ -64,7 +64,7 @@ A number of solved challenges on cybertalents platform     <br />
 ## About The Project
  <img src="images/dash.jpeg" alt="Logo" width="720" height="480">
 
- `trevin-livele`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+ Github: `trevin-livele`,Repository: `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
