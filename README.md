@@ -45,7 +45,7 @@ A number of solved challenges on cybertalents platform     <br />
         <li><a href="#introduction-to-ctf">introduction to ctf</a></li>
          <li><a href="#introduction-to-web-security">introduction to web security</a></li>
           <li><a href="#html">HTML</a></li>
-           <li><a href="#javascript">javascript</a></li> <li><a href="#cookies">Cookies</a></li> <li><a href="#hashing">hashing</a></li> <li><a href="#encoding">encoding</a></li> <li><a href="#built-with">Obfuscation</a></li> <li><a href="#built-with">xss</a></li> <li><a href="#built-with">Directory Traversal</a></li> <li><a href="#built-with">Sensitive Data Exposure</a></li> <li><a href="#built-with">Cyber security Overview</a></li> <li><a href="#built-with">Burpe Suite</a></li> <li><a href="#built-with">Command Injection</a></li>
+           <li><a href="#javascript">javascript</a></li> <li><a href="#cookies">Cookies</a></li> <li><a href="#hashing">hashing</a></li> <li><a href="#encoding">encoding</a></li> <li><a href="#obfuscation">obfuscation</a></li> <li><a href="#built-with">xss</a></li> <li><a href="#built-with">Directory Traversal</a></li> <li><a href="#built-with">Sensitive Data Exposure</a></li> <li><a href="#built-with">Cyber security Overview</a></li> <li><a href="#built-with">Burpe Suite</a></li> <li><a href="#built-with">Command Injection</a></li>
             <li><a href="#built-with">Code Injection</a></li>
          <li><a href="#built-with">SQL Injection</a></li>
           <li><a href="#built-with">Introduction To Digital Forensics</a></li>
@@ -235,4 +235,40 @@ Encoding is the process of converting a sequence of letters , characters and any
 flag{B@D_4uTh1Nt1C4T1On}
 ```
 
+## obfuscation
+
+What is obfuscation?
+
+Obfuscation is the process of modifying the script to convert it to a difficult,harder-to-understand format, but it will return the same result.
+
+```
+Obfuscation » Modify Code 
+
+flag{Obfuscation}
+
+```
+
+Obfuscation » Iam Legend 
+If I am a legend, then why am I so lonely?
+
+
+1. Enter the website provided in the challenge and you'll be redirected to a login page
+
+2. View the page source of the webpage by right clicking and selecting 'View Page Source'
+
+3. You'll find a script that is obfuscated in a weird format doing some research, I found that it was obfuscated using an encoding called jsfuck
+
+4. Going to the original decoder website and using their decoder did not work, as I only got "undefined"
+
+5. I searched for different decoders online and found one called poisonJS that de-obfuscates eval based jsfuck obfuscations after using the decoder, we get multiple functions including the check function for the username and password
+
+6. In the function, we see an if statement that includes the needed variables for the username and password.
+
+```
+(user=="Cyber" && pass=="Talent")
+```
+Entering those credentials will redirect you to a page with the Flag: 
+```
+flag{J4V4_Scr1Pt_1S_S0_D4MN_FUN}
+```
 
