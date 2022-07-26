@@ -112,11 +112,7 @@ Introduction to CTF » Pay Me Challenge
 flag{ransomeware}
 
 ````
-
-## html
-
-
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## introduction to web security
 
@@ -129,6 +125,7 @@ Introduction to Web Security » Hackers Gathering
 flag{defcon}
 
 ````
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## html
 
@@ -141,6 +138,7 @@ HTML » htmlentities
 True
 
 ````
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## javascript
 
@@ -158,6 +156,9 @@ JavaScript » This is Sparta
 flag{J4V4_Scr1Pt_1S_Aw3s0me}
 
 ````
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## cookies
 
 ### What are Cookies?
@@ -190,6 +191,7 @@ Cookies » Admin has the power
 flag{hiadminyouhavethepower}
 ````
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## hashing
 
@@ -214,6 +216,7 @@ We get the plaintext s3cr3tpassword. Now, as per instruction, we've to sha-1 enc
 flag{83874343435092cb681c0d558a84bfeb389c32ed}
  ````
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## encoding
@@ -234,6 +237,7 @@ Encoding is the process of converting a sequence of letters , characters and any
 ```
 flag{B@D_4uTh1Nt1C4T1On}
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## obfuscation
 
@@ -271,6 +275,7 @@ Entering those credentials will redirect you to a page with the Flag:
 ```
 flag{J4V4_Scr1Pt_1S_S0_D4MN_FUN}
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## xss
 
@@ -292,6 +297,9 @@ x = try+to+execute+some+jst flag=coolcookie112
 flag{coolcookie112}
 
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
 
 
 
