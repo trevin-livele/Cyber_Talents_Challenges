@@ -45,7 +45,7 @@ A number of solved challenges on cybertalents platform     <br />
         <li><a href="#introduction-to-ctf">introduction to ctf</a></li>
          <li><a href="#introduction-to-web-security">introduction to web security</a></li>
           <li><a href="#html">HTML</a></li>
-           <li><a href="#javascript">javascript</a></li> <li><a href="#cookies">Cookies</a></li> <li><a href="#hashing">hashing</a></li> <li><a href="#encoding">encoding</a></li> <li><a href="#obfuscation">obfuscation</a></li> <li><a href="#built-with">xss</a></li> <li><a href="#built-with">Directory Traversal</a></li> <li><a href="#built-with">Sensitive Data Exposure</a></li> <li><a href="#built-with">Cyber security Overview</a></li> <li><a href="#built-with">Burpe Suite</a></li> <li><a href="#built-with">Command Injection</a></li>
+           <li><a href="#javascript">javascript</a></li> <li><a href="#cookies">Cookies</a></li> <li><a href="#hashing">hashing</a></li> <li><a href="#encoding">encoding</a></li> <li><a href="#obfuscation">obfuscation</a></li> <li><a href="#xss">xss</a></li> <li><a href="#built-with">Directory Traversal</a></li> <li><a href="#built-with">Sensitive Data Exposure</a></li> <li><a href="#built-with">Cyber security Overview</a></li> <li><a href="#built-with">Burpe Suite</a></li> <li><a href="#built-with">Command Injection</a></li>
             <li><a href="#built-with">Code Injection</a></li>
          <li><a href="#built-with">SQL Injection</a></li>
           <li><a href="#built-with">Introduction To Digital Forensics</a></li>
@@ -271,4 +271,27 @@ Entering those credentials will redirect you to a page with the Flag:
 ```
 flag{J4V4_Scr1Pt_1S_S0_D4MN_FUN}
 ```
+
+## xss
+
+Cross-Site Scripting is a web vulnerability that relies on the client side , in which its purpose is to inject HTML (also called HTML injection) or to run JavaScript code in the user’s browser.
+
+XSS » Searching for the cookie 
+
+simple search website we need to know which cookie to eat ;)
+
+#### execute line by line in the input box
+
+```
+</script><script>alert(1);</script>
+
+</script><script>alert(document.cookie);</script>
+
+x = try+to+execute+some+jst flag=coolcookie112
+
+flag{coolcookie112}
+
+```
+
+
 
