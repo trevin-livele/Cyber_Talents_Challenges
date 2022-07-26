@@ -191,3 +191,28 @@ flag{hiadminyouhavethepower}
 ````
 
 
+## Hashing
+
+Hashing is the process of transforming any given key or a string of characters into another value. This is usually represented by a shorter, fixed-length value or key that represents and makes it easier to find or employ the original string
+
+
+we got this corrupted hash password from a Pcap file with a note (password = sha-1(hash-result)).
+
+```
+HASH:77be5d24ed2e3e590045e1d6o7e84i50d2799c19f48ede46804a8734e287df120f
+```
+Solution: Look at the hash 
+```
+77be5d24ed2e3e590045e1d6o7e84i50d2799c19f48ede46804a8734e287df120f
+```
+It's basically in hex format, right? But no, it has two illegal characters: o and i. Let's remove that. Now, it's 64 characters long, which is the length of a sha-256 hash.
+
+We get the plaintext s3cr3tpassword. Now, as per instruction, we've to sha-1 encrypt it. After encryption, we get 
+
+````
+83874343435092cb681c0d558a84bfeb389c32ed.
+ ````
+That's our solution or our flag.
+
+
+
