@@ -45,7 +45,7 @@ A number of solved challenges on cybertalents platform     <br />
         <li><a href="#introduction-to-ctf">introduction to ctf</a></li>
          <li><a href="#introduction-to-web-security">introduction to web security</a></li>
           <li><a href="#html">HTML</a></li>
-           <li><a href="#built-with">Javascript</a></li> <li><a href="#built-with">Cookies</a></li> <li><a href="#built-with">Hashing</a></li> <li><a href="#built-with">Encoding</a></li> <li><a href="#built-with">Obfuscation</a></li> <li><a href="#built-with">xss</a></li> <li><a href="#built-with">Directory Traversal</a></li> <li><a href="#built-with">Sensitive Data Exposure</a></li> <li><a href="#built-with">Cyber security Overview</a></li> <li><a href="#built-with">Burpe Suite</a></li> <li><a href="#built-with">Command Injection</a></li>
+           <li><a href="#javascript">javascript</a></li> <li><a href="#cookies">Cookies</a></li> <li><a href="#built-with">Hashing</a></li> <li><a href="#built-with">Encoding</a></li> <li><a href="#built-with">Obfuscation</a></li> <li><a href="#built-with">xss</a></li> <li><a href="#built-with">Directory Traversal</a></li> <li><a href="#built-with">Sensitive Data Exposure</a></li> <li><a href="#built-with">Cyber security Overview</a></li> <li><a href="#built-with">Burpe Suite</a></li> <li><a href="#built-with">Command Injection</a></li>
             <li><a href="#built-with">Code Injection</a></li>
          <li><a href="#built-with">SQL Injection</a></li>
           <li><a href="#built-with">Introduction To Digital Forensics</a></li>
@@ -158,4 +158,36 @@ JavaScript » This is Sparta
 flag{J4V4_Scr1Pt_1S_Aw3s0me}
 
 ````
+## cookies
+
+### What are Cookies?
+
+Cookies are data that browsers store in small text files on your computer.Cookies were invented to solve the problem of "how to remember information about the user?". 
+When you sign in to a web application, you won’t need to type your email and password again next time because it stores your credentials in the cookies.
+
+
+1. Enter the website provided in the challenge and you'll be redirected to a login page.
+
+2. View the page source of the webpage by right clicking and selecting 'View Page Source'.
+
+3. You'll find a comment that includes support username and password.
+
+4. TODO: remove this line , for maintenance purpose use this(user:support password:x34245323)
+
+5. Trying to use these credentials would only redirect you to the support page with no flag.
+
+6. Next you want to open up burp suite and intercept your requests.
+
+7. Try logging back in again with the same credentials but this time with proxy intercept on.
+
+8. You'll find that there is a role variable that is set to support, change that to admin and forward your request.
+
+9. After forwarding your request you should see a new webpage that includes the flag.
+
+````
+Cookies » Admin has the power 
+
+flag{hiadminyouhavethepower}
+````
+
 
