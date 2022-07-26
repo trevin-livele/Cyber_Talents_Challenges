@@ -45,7 +45,7 @@ A number of solved challenges on cybertalents platform     <br />
         <li><a href="#introduction-to-ctf">introduction to ctf</a></li>
          <li><a href="#introduction-to-web-security">introduction to web security</a></li>
           <li><a href="#html">HTML</a></li>
-           <li><a href="#javascript">javascript</a></li> <li><a href="#cookies">Cookies</a></li> <li><a href="#built-with">Hashing</a></li> <li><a href="#built-with">Encoding</a></li> <li><a href="#built-with">Obfuscation</a></li> <li><a href="#built-with">xss</a></li> <li><a href="#built-with">Directory Traversal</a></li> <li><a href="#built-with">Sensitive Data Exposure</a></li> <li><a href="#built-with">Cyber security Overview</a></li> <li><a href="#built-with">Burpe Suite</a></li> <li><a href="#built-with">Command Injection</a></li>
+           <li><a href="#javascript">javascript</a></li> <li><a href="#cookies">Cookies</a></li> <li><a href="#hashing">hashing</a></li> <li><a href="#encoding">encoding</a></li> <li><a href="#built-with">Obfuscation</a></li> <li><a href="#built-with">xss</a></li> <li><a href="#built-with">Directory Traversal</a></li> <li><a href="#built-with">Sensitive Data Exposure</a></li> <li><a href="#built-with">Cyber security Overview</a></li> <li><a href="#built-with">Burpe Suite</a></li> <li><a href="#built-with">Command Injection</a></li>
             <li><a href="#built-with">Code Injection</a></li>
          <li><a href="#built-with">SQL Injection</a></li>
           <li><a href="#built-with">Introduction To Digital Forensics</a></li>
@@ -191,10 +191,11 @@ flag{hiadminyouhavethepower}
 ````
 
 
-## Hashing
+## hashing
 
 Hashing is the process of transforming any given key or a string of characters into another value. This is usually represented by a shorter, fixed-length value or key that represents and makes it easier to find or employ the original string
 
+### Hashing » Hash3rror 
 
 we got this corrupted hash password from a Pcap file with a note (password = sha-1(hash-result)).
 
@@ -210,9 +211,28 @@ It's basically in hex format, right? But no, it has two illegal characters: o an
 We get the plaintext s3cr3tpassword. Now, as per instruction, we've to sha-1 encrypt it. After encryption, we get 
 
 ````
-83874343435092cb681c0d558a84bfeb389c32ed.
+flag{83874343435092cb681c0d558a84bfeb389c32ed}
  ````
-That's our solution or our flag.
 
+
+
+## encoding
+
+Encoding is the process of converting a sequence of letters , characters and any other special characters into a specialized format for transmission.Decoding is the reverse of the encoding process
+
+
+## Encoding » who am i? 
+
+1. Open the challenge && open the source code i.e ```view page source``` or ```inspect element```
+2. You get guest Account with Username   ``Guest`` and password as ``Guest``
+
+3. Open Burpe suite to intercept the request
+4. input the creds in the browser and forward in burp
+5. You get a token decode it as it is base64 encoded.After decoding we get it as ```admin```
+6. copy the encoded string replace it in burp and forward to get the flag.
+
+```
+flag{B@D_4uTh1Nt1C4T1On}
+```
 
 
