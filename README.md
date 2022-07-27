@@ -494,6 +494,7 @@ wget  https://hubchallenges.s3.eu-west-1.amazonaws.com/foren/Wireshark101.pcapng
 ````
 Open the file on Wireshark to capture the packets,next,navigate to number 258 and click
 
+ <img src="images/pcap.png" alt="Logo" width="720" height="380">
 
 Flag format: flag{Source IP/Source MAC/Destination IP/Destination MAC}
 
@@ -503,4 +504,3 @@ flag{40.77.226.250/38:54:9b:31:db:b8/192.168.1.4/08:00:27:ba:8c:38}
 ```
 
 
- <img src="images/pcap.png" alt="Logo" width="720" height="380">
