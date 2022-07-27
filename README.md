@@ -55,13 +55,13 @@ A number of solved challenges on cybertalents platform     <br />
     </li>
     
 <li>
-  <a href="#about-the-project">Intro to Cybersecurity Bootcamp 2022
+  <a href="#intro-to-cybersecurity-bootcamp-2022">Intro to Cybersecurity Bootcamp 2022
 </a>
 
 <ul>
  <li><a href="#introduction-to-ctfs">introduction to ctfs</a></li>
  <li><a href="#cybersecurity-overview">cybersecurity overview</a></li>
-  <li><a href="#attacks-and-vulnerabilities">attacks and vulnerabilities</a></li> <li><a href="#Network-security-fundamentals">Network security fundamentals</a></li> <li><a href="#wireshark">wireshark</a></li> <li><a href="#osi-model">osi model</a></li>
+  <li><a href="#attacks-and-vulnerabilities">attacks and vulnerabilities</a></li> <li><a href="#network-security-fundamentals">network security fundamentals</a></li> <li><a href="#wireshark">wireshark</a></li> <li><a href="#osi-model">osi model</a></li>
 </ul>
 </li>
   </ol>
@@ -309,6 +309,152 @@ flag{coolcookie112}
 
 ```
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## intro-to-cybersecurity-bootcamp-2022
+
+## introduction-to-ctfs
+
+```
+*Introduction to CTF » competition 
+
+Special kind of cybersecurity competition designed to challenge its participants to solve computer security problems
+
+flag{CTF}
+
+```
+
+## cybersecurity-overview
+
+What is Cybersecurity?
+
+Cyber security is a branch of security that focuses on protecting systems, networks, computers, and data, from unauthorized access (intentional and unintentional), modification, or destruction.
+
+```
+*Cybersecurity Overview » fisher 
+
+
+flag{bugbountyhunter}
+
+```
+
+## attacks-and-vulnerabilities
+
+
+What is a Cyber Attack?
+
+A cyber attack is an offensive act to make a computing device function maliciously, with the intent of stealing user credentials, gaining unauthorized access to a target system, disrupting services, and so many other intentions.
+
+Description
+
+~ we got the evidence for the phishing Email but we need to know the name of malware file
+Copy the link https://hubchallenges.s3-eu-west-1.amazonaws.com/Forensics/mail_bak.7z and download the file as shown below in terminal:
+```
+*Attacks & Vulnerabilities » Mailer 
+
+wget https://hubchallenges.s3euwest1.amazonaws.com/Forensics/mail_bak.7z
+
+Use the command → /usr/bin/p7zip -d — decompress — uncompress mail_bak.7z
+
+Now open the document names “Sent” using your text editor. Then search or grep “.exe” to get the flag.
+
+~ Cheers! Guess what? Your flag is: flag{Mal_strike8941934890753353453.exe}
+```
+
+## network Security fundamentals
+
+*Network Security Fundamentals » Mask 
+
+```
+flag{255.255.255.0}
+
+```
+## wireshark
+
+ Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level.
+
+ mac os install  ```https://www.wireshark.org/download.html```
+
+ linux install
+ ```
+ sudo add-apt-repository ppa:wireshark-dev/stable
+
+ sudo apt-get update
+
+ sudo apt-get install wireshark
+
+ sudo dpkg-reconfigure wireshark-common
+
+sudo adduser $USER wireshark
+ ```
+
+Then restart your machine and open Wireshark.
+
+*Wireshark » cl34r 
+
+
+Copy the link https://hubchallenges.s3.eu-west-1.amazonaws.com/Forensics/cl34r.pcapng and download the file as shown below in terminal:
+
+```
+wget https://hubchallenges.s3.eu-west-1.amazonaws.com/Forensics/cl34r.pcapng
+
+file cl34r
+
+strings cl34r.pcapng
+
+```
+
+And moving down the output of the command look what we find? A flag :
+
+````
+flag{Th1s_15_t0_cl34r}
+````
+
+*Wireshark » Anonymous 
+
+Can you trace the anonymous guy? 
+
+```
+wget https://hubchallenges.s3-eu-west-1.amazonaws.com/Forensics/anonymous.pcap
+
+file anonymous.pcap
+
+string anonymous.pcap
+
+```
+Use an online decoding site for Base64 and guess what? Your flag is:
+```
+flag{anonymous_t0_th3_end}
+
+```
 
 
 
