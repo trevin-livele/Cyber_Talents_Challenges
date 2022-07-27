@@ -456,6 +456,35 @@ flag{anonymous_t0_th3_end}
 
 ```
 
+## OSI Model
+Open Systems Interconnection Model (OSI) is a conceptual framework used to describe the functions of a networking system. 
 
+*OSI Model » http 
+could you know the content of ctweb.com on server?
+```
+username: ctf
+
+password: ctf
+
+```
+open the link http://wlem4m2366qcg3011y3e1e0sxzm61xvky2j9blz0-web.cybertalentslabs.com/ on a web server and login with the creds above.
+
+The web server content is usually in /var/www so let’s navigate to that directory.
+
+You’ll find the ctweb.com directory, view the directory’s content and you’ll get the flag.
+
+````
+flag{htt9_pR0toc01}
+
+````
+
+*OSI Model » address 
+
+(What is the source and destination IP/MAC for packet number 258
+
+Mac address in small letters.)
+
+
+Flag format: flag{Source IP/Source MAC/Destination IP/Destination MAC}
 
 
