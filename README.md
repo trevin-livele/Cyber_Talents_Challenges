@@ -529,3 +529,46 @@ http://wlemyw93xjyc7zr8r4gvmkxal3dm4gvmwe6gsl3d-web.cybertalentslabs.com/files..
 FLAG{Nginx_nOt_aLWays_sEcUre_bY_The_waY}
 ```
 
+## Sensitive Data Exposure
+Sensitive Data Exposure » Maximum Courage 
+
+
+<h1>tools</h1>
+
+https://portswigger.net/
+
+https://wiki.owasp.org/index.php/Category:OWASP_DirBuster_Project
+
+https://github.com/internetwache/GitTools
+```
+Download the file
+Open in text editor
+
+https  /maximum/.git/refs/heads/master
+
+wget -r <url>
+ls
+cd maximum
+ls-la
+cd .git
+ls
+git restore flag.php
+cat flag.php
+
+hash => be607453caada6a05dooc0ea0057f733
+```
+
+use https://portswigger.net/  {burp suite}
+
+flag{sessionareawesomebutifitsecure}
+
+## command Injection
+
+injecting os commands on a web app
+
+
+
+
+## code injection
+
+
