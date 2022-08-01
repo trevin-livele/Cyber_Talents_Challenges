@@ -351,6 +351,7 @@ Special kind of cybersecurity competition designed to challenge its participants
 flag{CTF}
 
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## cybersecurity-overview
 
@@ -365,6 +366,7 @@ Cyber security is a branch of security that focuses on protecting systems, netwo
 flag{bugbountyhunter}
 
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## attacks-and-vulnerabilities
 
@@ -388,6 +390,7 @@ Now open the document names “Sent” using your text editor. Then search or gr
 
 ~ Cheers! Guess what? Your flag is: flag{Mal_strike8941934890753353453.exe}
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## network Security fundamentals
 
@@ -397,6 +400,8 @@ Now open the document names “Sent” using your text editor. Then search or gr
 flag{255.255.255.0}
 
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## wireshark
 
  Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level.
@@ -455,6 +460,7 @@ Use an online decoding site for Base64 and guess what? Your flag is:
 flag{anonymous_t0_th3_end}
 
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## OSI Model
 Open Systems Interconnection Model (OSI) is a conceptual framework used to describe the functions of a networking system. 
@@ -503,6 +509,8 @@ Flag format: flag{Source IP/Source MAC/Destination IP/Destination MAC}
 flag{40.77.226.250/38:54:9b:31:db:b8/192.168.1.4/08:00:27:ba:8c:38}
 ```
 
+ 
+ <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## directory-traversal
 
@@ -528,6 +536,7 @@ http://wlemyw93xjyc7zr8r4gvmkxal3dm4gvmwe6gsl3d-web.cybertalentslabs.com/files..
 
 FLAG{Nginx_nOt_aLWays_sEcUre_bY_The_waY}
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Sensitive Data Exposure
 Sensitive Data Exposure » Maximum Courage 
@@ -561,6 +570,7 @@ hash => be607453caada6a05dooc0ea0057f733
 use https://portswigger.net/  {burp suite}
 
 flag{sessionareawesomebutifitsecure}
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## command Injection
 
@@ -576,6 +586,7 @@ flag
 ```
 18ab51f960bd149bcb2497b9998c752c
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## Sql injection
@@ -605,6 +616,7 @@ http://sqlmap.org/
 flag{!injection_3v3r_wh3r3}
 
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Digital Forensics
 
@@ -613,6 +625,7 @@ flag
 ```
 forensics
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Meta Data
 
@@ -622,6 +635,7 @@ forensics
 
 
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Steganography
 
@@ -633,6 +647,7 @@ flag
 ```
 Steganography
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Audio-forensics
 
@@ -654,6 +669,7 @@ flag
 ```
 you_aree_victorious!
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## wireshark
 
@@ -661,6 +677,7 @@ you_aree_victorious!
 
 
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Net Cat
 
@@ -687,6 +704,7 @@ nc - tells Windows to run the nc.exe file with the following arguments:
 
 -e Tells what program to run once the port is connected to (cmd.exe)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## memory forensics 
 It helps detect unwanted and anonymous conduct on a target computer or server
@@ -707,6 +725,7 @@ monaliza
 
 
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Reverse Engineering
 
@@ -742,6 +761,7 @@ pestudio,Peid or exeinfope
 ```
 
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## Introduction to Cryptography
@@ -754,6 +774,7 @@ flag
 ```
 CIA
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Hide Data 
 Caesar Cipher » Hide Data 
@@ -770,6 +791,8 @@ the flag is
 ```
 It is pretty easy to see the flag but can you see it i took nearly 1 minute to encode this with ROT13 good luck in solving that
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Hash Cracking
 
 Guess The Password
@@ -785,6 +808,7 @@ Solution: Reversing the SHA-1 gives us
 jrahyn+
 ```
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
