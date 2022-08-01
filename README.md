@@ -634,6 +634,32 @@ flag
 Steganography
 ```
 
+## Audio-forensics
+
+Audio Forensics » I love music 
+
+deep sound is windows based tool to hide files inside audio files , it can hide or extract files from the audio file . 
+
+https://docs.python.org/3/library/wave.html
+
+https://academo.org/demos/spectrum-analyzer/
+
+https://www.audacityteam.org/
+
+sox tool . {kali linux}
+
+use audacity to decode the audio
+
+flag 
+```
+you_aree_victorious!
+```
+
+## wireshark
+
+
+
+
 
 
 
