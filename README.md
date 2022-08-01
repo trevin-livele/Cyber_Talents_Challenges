@@ -45,7 +45,7 @@ A number of solved challenges on cybertalents platform     <br />
         <li><a href="#introduction-to-ctf">introduction to ctf</a></li>
          <li><a href="#introduction-to-web-security">introduction to web security</a></li>
           <li><a href="#html">HTML</a></li>
-           <li><a href="#javascript">javascript</a></li> <li><a href="#cookies">Cookies</a></li> <li><a href="#hashing">hashing</a></li> <li><a href="#encoding">encoding</a></li> <li><a href="#obfuscation">obfuscation</a></li> <li><a href="#xss">xss</a></li> <li><a href="#built-with">Directory Traversal</a></li> <li><a href="#built-with">Sensitive Data Exposure</a></li> <li><a href="#built-with">Cyber security Overview</a></li> <li><a href="#built-with">Burpe Suite</a></li> <li><a href="#built-with">Command Injection</a></li>
+           <li><a href="#javascript">javascript</a></li> <li><a href="#cookies">Cookies</a></li> <li><a href="#hashing">hashing</a></li> <li><a href="#encoding">encoding</a></li> <li><a href="#obfuscation">obfuscation</a></li> <li><a href="#xss">xss</a></li> <li><a href="#directory-traversal">directory-traversal</a></li> <li><a href="#built-with">Sensitive Data Exposure</a></li> <li><a href="#built-with">Cyber security Overview</a></li> <li><a href="#built-with">Burpe Suite</a></li> <li><a href="#built-with">Command Injection</a></li>
             <li><a href="#built-with">Code Injection</a></li>
          <li><a href="#built-with">SQL Injection</a></li>
           <li><a href="#built-with">Introduction To Digital Forensics</a></li>
@@ -503,4 +503,29 @@ Flag format: flag{Source IP/Source MAC/Destination IP/Destination MAC}
 flag{40.77.226.250/38:54:9b:31:db:b8/192.168.1.4/08:00:27:ba:8c:38}
 ```
 
+
+## directory-traversal
+
+Accessing files or data in a web application outside the root folder
+
+```
+python3 dirsearch.py -u <url link>
+
+```
+
+burpsuite => https://portswigger.net/
+
+dirbuster=> https://wiki.owasp.org/index.php/Category:OWASP_DirBuster_Project
+
+https://github.com/xmendez/wfuzz/blob/master/wordlist/Injections/Traversal.txt
+
+
+Navigate to bean/files../home/flag.txt  after conducting a directory search
+
+```
+http://wlemyw93xjyc7zr8r4gvmkxal3dm4gvmwe6gsl3d-web.cybertalentslabs.com/files../home/flag.txt
+
+
+FLAG{Nginx_nOt_aLWays_sEcUre_bY_The_waY}
+```
 
