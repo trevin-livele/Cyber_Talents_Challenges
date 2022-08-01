@@ -662,4 +662,55 @@ you_aree_victorious!
 
 
 
+## Net Cat
+
+Netcat is a utility that is able to write and read data across TCP and UDP network connections
+In order to act as a backdoor we need Netcat to listen on a chosen port on the IIS
+
+server (let's choose port 4444) and then we can connect to this port from our
+
+attacking machine…using Netcat of course!
+
+The command we want to give on the server looks like this:
+
+nc -L -p 4444 -d -e cmd.exe
+
+Here's what that command does:
+
+nc - tells Windows to run the nc.exe file with the following arguments:
+
+-L Tells netcat to not close and wait for connections
+
+-p Specifies a port to listen for a connection on
+
+-d Tells Netcat to detach from the process we want it to run.
+
+-e Tells what program to run once the port is connected to (cmd.exe)
+
+
+## memory forensics 
+
+ 
+
+RAW Format – Extracted from a live environment
+
+Crash Dump – Information gathered by the operating system
+
+Hibernation File – A saved snapshot that your operating system can return to after hibernating
+
+Page File – This is a file that stores similar information that is stored in your system RAM
+
+VMWare Snapshot – This is a snapshot of a virtual machine, which saves its state as it was at the exact moment that the snapshot was generated
+
+monaliza
+
+
+
+
+
+
+
+
+
+
 
