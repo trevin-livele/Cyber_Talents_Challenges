@@ -584,5 +584,27 @@ flag
 What is SQL Injection ?
 a web vulnerability that allows the attacker to retrieve sensitive data from the application database by injecting an SQL query into one of the application functions that retrieves data for the user.
 
+SQL Injection attacks types :
+
+Inband: data is  retrieved using the same channel that is used to inject the SQL code.
+
+Out-of-band: data is retrieved using a different channel (e.g., an email with the results of the query is generated and sent to the tester).
+
+Blind: no error is shown as result for the SQL injection payload .
+ 
+
+resources
+
+https://github.com/fuzzdb-project/fuzzdb/tree/master/attack/sql-injection
+
+http://sqlmap.org/
+
+```
+'1 or 1 --
+
+flag{!injection_3v3r_wh3r3}
+
+```
+
 
 
