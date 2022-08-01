@@ -689,7 +689,7 @@ nc - tells Windows to run the nc.exe file with the following arguments:
 
 
 ## memory forensics 
-
+It helps detect unwanted and anonymous conduct on a target computer or server
  
 
 RAW Format – Extracted from a live environment
@@ -703,6 +703,78 @@ Page File – This is a file that stores similar information that is stored in y
 VMWare Snapshot – This is a snapshot of a virtual machine, which saves its state as it was at the exact moment that the snapshot was generated
 
 monaliza
+
+
+
+
+
+## Reverse Engineering
+
+
+There is a lot of Disassembler tools like:
+
+```
+IDA
+Ghidra
+Binary Ninja
+Cutter
+gdb
+```
+
+
+There is a lot of Debuggers like:
+```
+IDA in the pro version.
+gdb (linux)
+x64 (windows)
+```
+
+hecking if the binary is obfuscated or packed
+ 
+
+In this step we can use tools like 
+```
+pestudio,Peid or exeinfope
+```
+ if we are dealing with windows executable and for ELF files we can use tool like 
+ ```
+ elfparser.
+```
+
+
+
+
+## Introduction to Cryptography
+is a model designed to guide policies for information security within an organization
+
+Introduction to Cryptography » security model 
+
+flag
+
+```
+CIA
+```
+
+## Hide Data 
+Caesar Cipher » Hide Data 
+
+I used to hide my data with a classic cypher, can you get the flag hidden inside?
+gur synt vf 2w68lsudym Vg vf cerggl rnfl gb frr gur synt ohg pna lbh frr vg v gbbx arneyl 1 zvahgr gb rapbqr guvf jvgu EBG13 tbbq yhpx va fbyivat gung
+  use this for conversion
+
+https://codebeautify.org/rot13-to-text-converter
+
+the flag is 
+```
+2j68yfhqlz 
+```
+It is pretty easy to see the flag but can you see it i took nearly 1 minute to encode this with ROT13 good luck in solving that
+
+
+
+
+
+
 
 
 
