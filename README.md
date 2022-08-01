@@ -606,5 +606,34 @@ flag{!injection_3v3r_wh3r3}
 
 ```
 
+## Digital Forensics
+
+flag 
+
+```
+forensics
+```
+
+## Meta Data
+
+
+
+
+
+
+
+
+## Steganography
+
+Embeding secrete message in a cover message
+
+Steganography » Greeks 
+
+flag
+```
+Steganography
+```
+
+
 
 
