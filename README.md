@@ -570,5 +570,19 @@ injecting os commands on a web app
 
 
 ## code injection
+Allows attacker to inject malicious code to the web application
+
+flag 
+```
+18ab51f960bd149bcb2497b9998c752c
+```
+
+
+## Sql injection
+
+
+What is SQL Injection ?
+a web vulnerability that allows the attacker to retrieve sensitive data from the application database by injecting an SQL query into one of the application functions that retrieves data for the user.
+
 
 
