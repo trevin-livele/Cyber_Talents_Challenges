@@ -770,10 +770,20 @@ the flag is
 ```
 It is pretty easy to see the flag but can you see it i took nearly 1 minute to encode this with ROT13 good luck in solving that
 
+## Hash Cracking
 
+Guess The Password
 
-
-
+A hacker leaked the below hash online.
+Can you crack it to know the password of the CEO?
+The flag is the password
+```
+Hash: 06f8aa28b9237866e3e289f18ade19e1736d809d
+```
+Solution: Reversing the SHA-1 gives us
+```
+jrahyn+
+```
 
 
 
